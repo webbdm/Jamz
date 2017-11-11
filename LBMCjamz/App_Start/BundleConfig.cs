@@ -28,7 +28,9 @@ namespace LBMCjamz
                 "~/Scripts/angular-route.js",
                 "~/ngApp/app.js",
                 "~/ngApp/appconfig.js")
-                .IncludeDirectory("~/ngApp/Controllers", "*.js", true));
+                .IncludeDirectory("~/ngApp/Controllers", "*.js", true)
+                //.IncludeDirectory("~/ngApp/Controllers", "*.js", true)
+                );
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
