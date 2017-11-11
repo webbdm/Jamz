@@ -13,7 +13,7 @@ app.config(["$routeProvider", function ($routeProvider) {
 }]);
 
 
-app.run(["$rootScope", "$http", "$location", function ($rootScope, $http,$location) {
+app.run(["$rootScope", "$http", "$location", function ($rootScope, $http, $location) {
 
-   
-}])
+
+}]);
